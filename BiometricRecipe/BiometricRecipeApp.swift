@@ -11,7 +11,7 @@ import SwiftUI
 struct BiometricRecipeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RecipeListView(cryptoManager: CryptoManager())
         }
     }
 }
